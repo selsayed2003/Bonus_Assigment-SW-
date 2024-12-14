@@ -65,7 +65,7 @@ Step 2: Explore and Test API Endpoints
 
 Use the Swagger interface to interactively test all API endpoints.
 
-Example endpoints:
+endpoints:
 
 GET /list: Fetch all books.
 
@@ -87,11 +87,4 @@ Stop the container:
 
 docker stop <container-id>
 
-Additional Notes
-
-The books data is currently stored in-memory. Changes will be lost when the server restarts unless you integrate a database.
-
-Ensure port 5000 is available before running the container. You can change the port mapping in the docker run command if needed.
-
-Let me know if you need further assistance!
 
